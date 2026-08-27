@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local source documents and generated outputs
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.svg
+
+# Models / checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
